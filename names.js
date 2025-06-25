@@ -10,4 +10,6 @@ function userName(firstName, lastName) {
     }
 }
 
+console.log(userName("firstName", "lastName"));
+
 module.exports = userName;

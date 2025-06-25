@@ -6,4 +6,5 @@ console.log('Hi node.js');
 function userHobbies (hobbyOne, hobbyTwo, hobbyThree) { return ["Leggere", "Ascoltare la musica", "Visitare musei"]
 }
 
+console.log(userHobbies("hobbyOne", "hobbyTwo", "hobbyThree"));
 module.export = userHobbies; 
