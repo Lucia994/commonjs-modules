@@ -5,11 +5,11 @@
 
 function userName(firstName, lastName) {
     return {
-        firstName: "Elliot",
-        lastName: "Reid",
+        firstName: firstName,
+        lastName: lastName,
     }
 }
 
-console.log(userName("firstName", "lastName"));
+console.log(userName("Lucia", "Summa"));
 
 module.exports = userName;

@@ -7,13 +7,13 @@ console.log('Hi node.js');
 const userName = require("./names.js");
 const userHobbies = require("./hobbies.js");
 
-console.log(userName, userHobbies);
+// console.log(userName, userHobbies);
 
 function user() {
     return {
-        fullName: `$ {userName.firstName} ${userName.lastName}`,
-        hobbies: `$ {userhobbies.hobbyOne} ${userHobbies.hobbyTwo} ${userHobbies.hobbyThree}`,
+        fullName: userName('Luci', 'Su'),
+        hobbies: userHobbies("Leggere libri", "Visitare musei di arte", "Ascoltare la musica anni 80/90"),
     }
 }
 
-console.log(user);
+console.log(user());
